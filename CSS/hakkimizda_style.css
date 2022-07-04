@@ -1,0 +1,126 @@
+
+.sayfa{
+    width: 1366px;
+    height: auto ;
+    margin: auto;
+    padding: 0px; 
+}
+.anamenu{
+    width: 1366px;
+    height:132px ;
+    background-color: white;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+.AciklamaKissmi h2{
+    color: #1174AE;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-right: 30px;
+}
+.AciklamaKissmi p{
+    font-size: 25px;
+    margin-left: 30px;
+    padding-right: 30px;
+
+}
+
+article , aside{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+article{
+    width: 80%;
+    margin-right: 15px;
+    color: #707070;
+    border: 0;
+    border-right: 1px;
+    border-style: solid;
+}
+
+aside{
+    width: 20%;
+    height: 600px;
+    position: absolute;
+    padding: 10px;
+}
+aside h3{
+    margin-left: 40px;
+    color: black;
+}
+aside ul{
+    margin-left: 5px;
+    list-style: none;
+}
+aside li{
+    list-style: none;
+    padding-top: 20px;
+}
+a:link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #1174AE;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: #1174AE;
+  }
+
+  
+.menu-button{
+    background-color: #0C527A;
+    color: #fff;
+    padding: 16px 105px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+  .right-menu{
+    display: inline-block;
+  }
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 100;
+  }
+  .dropdown-menu a{
+    color: black;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+  
+    display: block;
+  }
+  .dropdown-menu a:hover{
+    background-color: rgba(129,129,129,.15);
+    color: black;
+  }
+  .right-menu:hover .dropdown-menu{
+    display: block;
+  }
+  
+  .right-menu:hover .menu-button{
+    background-color: #0C527A;
+  }
+  
+  
+.footer{
+    margin-top: 100px;
+}
+

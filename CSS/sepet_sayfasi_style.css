@@ -1,0 +1,166 @@
+
+.sayfa{
+    width: 1366px;
+    height: auto ;
+    margin: auto;
+    padding: 0px; 
+}
+.anamenu{
+    width: 1366px;
+    height:132px ;
+    background-color: white;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+.AciklamaKissmi h2{
+    color: #1174AE;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-right: 30px;
+}
+
+
+article , aside{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+article{
+    width: 70%;
+    margin-right: 15px;
+    color: #707070;
+    border: 0;
+ 
+}
+
+aside{
+    width: 29%;
+    height: 600px;
+    position: absolute;
+    padding: 10px;
+}
+ 
+.menu-button{
+    background-color: #0C527A;
+    color: #fff;
+    padding: 16px 105px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+  .right-menu{
+    display: inline-block;
+  }
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 100;
+  }
+  .dropdown-menu a{
+    color: black;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+  
+    display: block;
+  }
+  .dropdown-menu a:hover{
+    background-color: rgba(129,129,129,.15);
+    color: black;
+  }
+  .right-menu:hover .dropdown-menu{
+    display: block;
+  }
+  
+  .right-menu:hover .menu-button{
+    background-color: #0C527A;
+  }
+  
+
+  .UrunlerKismi{
+    width: 810px;
+    height: auto;
+    min-height: 634px;
+    border: 1px solid #707070;
+    border-radius: 37px;
+  }
+  .FiyatKismi{
+    width: 317px;
+    height: 634px;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    margin-top: 87px;
+    margin-right: 50px;
+  }
+
+  .sil{
+    width: 145px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border-color: #707070;
+    border-style: solid;
+    text-align: center;
+}
+td{
+  border: 0;
+  border-bottom: 1px;
+  border-style: solid; 
+  border-color: #707070;
+  padding-bottom: 15px;
+}
+table{
+  border-collapse: separate;
+border-spacing: 0 15px;
+}  
+
+#indirimkuponu{
+  width: 283px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.UygulaButonu{
+  width: 133px;
+  height: 49px;
+  background-color: #0C527A;
+  border-color: #0C527A;
+  border-style: solid;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+.odeme1{
+  width: 135px;
+  height: 48px;
+  background-color: #FFFFFF;
+  border-color: #707070;
+  border-style: solid;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.odeme2{
+  width: 135px;
+  height: 48px;
+  background-color: #0C527A;
+  border-color: #0C527A;
+  border-style: solid;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 10px;
+  color: white;
+  margin-top: 20px;
+
+}
+.footer{
+    margin-top: 100px;
+}
+

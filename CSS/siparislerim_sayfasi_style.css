@@ -1,0 +1,165 @@
+
+.sayfa{
+    width: 1366px;
+    height: auto ;
+    margin: auto;
+    padding: 0px; 
+}
+.anamenu{
+    width: 1366px;
+    height:132px ;
+    background-color: white;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+.AciklamaKissmi h2{
+    color: #1174AE;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-right: 30px;
+}
+
+
+article{
+    width: 100%;
+    margin-right: 15px;
+    color: #707070;
+    border: 0;
+}
+  
+.menu-button{
+    background-color: #0C527A;
+    color: #fff;
+    padding: 16px 105px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+  .right-menu{
+    display: inline-block;
+  }
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 100;
+  }
+  .dropdown-menu a{
+    color: black;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+  
+    display: block;
+  }
+  .dropdown-menu a:hover{
+    background-color: rgba(129,129,129,.15);
+    color: black;
+  }
+  .right-menu:hover .dropdown-menu{
+    display: block;
+  }
+  
+  .right-menu:hover .menu-button{
+    background-color: #0C527A;
+  }
+  
+  .urun{
+    width: 1094px;
+    height: auto;
+    min-height: 100px;
+    border: 1px solid #707070;
+    border-radius: 33px;
+    margin-left: 25px;
+    margin-top: 70px;
+  }
+
+  .urunfotolari , .siparisNo , .siparisDurumu , .siparisTutarı , .yukariAsagi{
+    display: inline-block;
+    vertical-align: middle;
+}
+  .urunfotolari{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .urunfoto1{
+    width: 61px;
+    height: 57px;
+
+  }
+  .urunfoto2{
+    width: 61px;
+    height: 57px;
+    position: relative;
+    right: 30px;
+  }
+  .siparisNo{
+    width: 350px;
+  }
+  
+  .siparisNo h3{
+    position: relative;
+    top: 10px;
+  }
+  .siparisNo small{
+    position: relative;
+    bottom: 10px;
+  }
+  .siparisDurumu{
+    width: 350px;
+    position: relative;
+    top: 5px;
+  }
+  .siparisDurumu h3 , .siparisDurumu img{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .siparisTutarı{
+    width: 150px;
+    position: relative;
+    top: 5px;
+  }
+  .yukariAsagi{
+    position: relative;
+    top: 5px;
+  }
+
+  .urunFotosu , .urunAdi , .fiyat , .toplamTutar{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .siparisDetayi{
+    width: 1050px;
+    height: auto;
+  }
+
+  .urunFotosu{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+  .urunAdi{
+    width: 350px;
+  }
+ .fiyat{
+    width: 350px;
+    position: relative;
+    top: 5px;
+  }
+  .toplamTutar{
+    width: 150px;
+    position: relative;
+    top: 5px;
+  }
+  
+  
+.footer{
+    margin-top: 100px;
+}
+

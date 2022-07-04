@@ -1,0 +1,225 @@
+.sayfa{
+    width: 1366px;
+    height: auto ;
+    margin: auto;
+    padding: 0px; 
+}
+.anamenu{
+    width: 1366px;
+    height:132px ;
+    background-color: white;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+.filter{
+    margin-top: 40px;
+    margin-left: 645px;
+    border: 0px;
+    border-bottom: 1px;
+    border-color: #0C527A;
+    border-style: solid;
+    width: 218px;
+    height: 28px;
+}
+
+.urun{
+    width: 288px;
+    height: 378px;
+    
+}
+.urun_fotografi{
+    width: 264px;
+    height: 264px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+.urun_fotografi .foto1{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    transition: .5s;
+
+}
+.urun_fotografi:hover .foto1{
+    opacity: 0;
+}
+.urun_fotografi .foto2{
+    width: 264px;
+    height: 264px;
+    backface-visibility: hidden;
+    opacity: 0;
+    position: relative;
+    top: -268px;
+    transition: .5s;
+}
+.urun_fotografi:hover .foto2{
+    opacity: 1;
+}
+.urun_adi{
+    color: black;
+    margin-left: 80px;
+    position: relative;
+    top: 43px;
+    left: 25px;
+}
+
+.urunler_kismi table{
+    border-style: solid;
+    border: 1px;
+    border-color: black;
+}
+
+article , aside{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+article{
+    width: 80%;
+    margin-left: 300px;
+    color: #707070;
+    border: 0;
+    border-left: 1px;
+    border-style: solid;
+}
+article ul{
+    list-style: none;
+    margin-left: 300px;
+}
+article ul li{
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 34px;
+    text-align: center;
+}
+
+aside{
+    width: 20%;
+    height: 1200px;
+    position: absolute;
+    padding: 10px;
+   
+}
+aside h3{
+    margin-left: 40px;
+    color: black;
+}
+aside ul{
+    margin-left: 5px;
+    list-style: none;
+}
+aside li{
+    list-style: none;
+    padding-top: 20px;
+}
+a:link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #1174AE;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: #1174AE;
+  }
+
+     
+.SayfalamaAlaniKapsayicisi{
+    display: block;
+    width: 100%;
+    height:auto;
+    margin: 0;
+    padding:10px 0 10px 0;
+    border:none;
+    outline:none;
+    text-align:center;
+    text-decoration:none;
+    position: relative;
+    left: -100px;
+}
+.SayfalamaAlaniIciMetinAlaniKapsayicisi{
+    display: block;
+    width: 100%;
+    height:auto;
+    margin:0;
+    padding:5px 0 5px 0;
+    border:none;
+    outline:none;
+    text-align:center;
+    text-decoration:none;
+}
+.SayfalamaAlaniIciNumaralandirmaAlaniKapsayicisi{
+    display: block;
+    width: 100%;
+    height:auto;
+    margin:0;
+    padding:5px 0 5px 0;
+    border:none;
+    outline:none;
+    text-align:center;
+    text-decoration:none;
+}
+.Pasif{
+    display: inline-blok;
+    width: auto;
+    height:20px;
+    margin: 0;
+    margin : 0px 0.5px;
+    padding:0;
+    padding: 5px 7.5px;
+    background:#FFFFFF;
+    border : none;
+    border: 1px solid #DADADA;
+    outline:none;
+    color:#646464;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height : 20px;
+    text-align : center;
+    text-decoration:none;
+}
+.Pasif a:link,a:visited,a:hover,a:active{
+    text-decoration:none;
+    color:#646464;
+
+}
+.Aktif{
+    display: inline-blok;
+    width: auto;
+    height:20px;
+    margin: 0;
+    margin : 0px 0.5px;
+    padding:0;
+    padding: 5px 7.5px;
+    background: #f6f6f6;;
+    border : none;
+    border: 1px solid #DADADA;
+    outline:none;
+    color:#646464;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    line-height : 20px;
+    text-align : center;
+    text-decoration:none;
+}
+
+
+.SayfaninTamami{
+   margin-left: 70px;
+}
+

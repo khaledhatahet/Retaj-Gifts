@@ -1,0 +1,1 @@
+UPDATE siparisler SET SiparisDurumu = 0 WHERE SiparisNumarasi = 5

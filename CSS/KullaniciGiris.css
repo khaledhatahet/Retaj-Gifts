@@ -1,0 +1,110 @@
+
+.sayfa{
+    width: 1366px;
+    height: auto ;
+    margin: auto;
+    padding: 0px; 
+}
+.anamenu{
+    width: 1366px;
+    height:132px ;
+    background-color: white;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+  
+.menu-button{
+    background-color: #0C527A;
+    color: #fff;
+    padding: 16px 105px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+  .right-menu{
+    display: inline-block;
+  }
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 100;
+  }
+  .dropdown-menu a{
+    color: black;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+  
+    display: block;
+  }
+  .dropdown-menu a:hover{
+    background-color: rgba(129,129,129,.15);
+    color: black;
+  }
+  .right-menu:hover .dropdown-menu{
+    display: block;
+  }
+  
+  .right-menu:hover .menu-button{
+    background-color: #0C527A;
+  }
+
+  input[type="text"],input[type="password"]{
+    padding: 5px;
+    width: 436px;
+    height: 35px;
+    border-width: 1px;
+    border-color: #D9DEEA;
+    color: #95A1BB;
+    font-size: 20px;
+    margin-left: 12px;
+    
+}
+input[type="submit"]{
+    padding: 5px;
+    width: 447px;
+    height: 35px;
+    background-color: #1174AE;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-left: 12px;
+    margin-top: 50px;
+}
+
+
+
+.loginSayfasininAlani{
+  width: 479px;
+  height: 520px;
+  position: relative;
+  left: 400px;
+  top: 100px;
+  border: 1px solid #707070;
+}
+.loginFoto{
+  position: relative;
+  left: 200px;
+  top: 50px;
+}
+  
+.formAlani table{
+  margin-top: 80px;
+}
+.GirisYazisi{
+  color: #95A1BB;
+  text-align: center;
+  position: relative;
+  left: 0px;
+  top: 40px;
+  font-size: 32px;
+}
+.footer{
+    margin-top: 150px;
+}
+

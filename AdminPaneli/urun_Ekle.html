@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Sayfası</title>
+    <link rel="stylesheet" href="CSS/urun_Ekle_style.css">
+</head>
+<body>
+    <div class="sayfa">
+       <a href="AnaSayfa.html"><img id="logo" src="resimler/logo.png"></a> 
+        <a href="GirisSayfasi.html"><button type="button" id="cikisButonu"> Çıkış</button></a>
+       
+        <aside id="aside1">         
+            <ul>
+                <li><a href="Kategori_Ekle.html"><button  class="yanliste">Kategori işlemleri</button></a></li>
+                <li><a href="urun_Ekle.html"><button  class="yanliste">Ürün Ekle</button></a></li>
+                <li><a href="Urunleri_Sil.html"><button  class="yanliste">Ürün Sil</button></a></li>
+                <li><a href="urunleri_Duzelt.html"><button  class="yanliste">Ürün Düzelt</button></a></li>
+                <li><a href=""><button  class="yanliste">Şirketin Bilgilerini Düzelt</button></a></li>
+                <li><a href="Eleman_Ekle.html"><button  class="yanliste">Eleman İşlemleri</button></a></li>
+            </ul>
+      </aside>
+      <article>
+        <article>
+            <h2>Ürün Ekle</h2>
+            <form action="" method="post" enctype="multipart/form-data">
+                <table>
+                    <tr>
+                        <td><input type="text" placeholder="Ürün Adı" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Kod" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" placeholder="Kg" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" placeholder="Ölçüleri" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><label id="renkler">Renkler :</label>
+                            <button type="button" id="renkEkle"><img src="CSS/add_50px.png"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><label id="kategori">Kategori :</label>
+                            <select id="kategori_Sec">
+                                <option value="A Kategorisi">Kategori</option>
+                                <option value="A Kategorisi">A Kategorisi</option>
+                                <option value="B Kategorisi">B Kategorisi</option>
+                                <option value="C Kategorisi">C Kategorisi</option>
+                                <option value="D Kategorisi">D Kategorisi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Ekle"></td>
+                    </tr>
+                    
+                </table>
+        </article>
+        <aside id="aside2">
+            <table>
+                <tr>
+                       <td><label>Ana Fotoğraf :  </label></td> 
+                        <td><input type="file" name="AnaFotograf"></td> 
+                </tr>
+                <tr>
+                       <td><label>1.Küçük Fotoğraf :  </label></td> 
+                        <td><button type="button" class="sil">Ekle</button></td> 
+                </tr>
+                <tr>
+                       <td><label>2.Küçük Fotoğraf :  </label></td> 
+                        <td><button type="button" class="sil">Ekle</button></td> 
+                </tr>
+                <tr>
+                       <td><label>3.Küçük Fotoğraf :  </label></td> 
+                        <td><button type="button" class="sil">Ekle</button></td> 
+                </tr>
+        </table>
+        </aside>
+    </form>
+      </article>
+    </div>
+</body>
+</html>

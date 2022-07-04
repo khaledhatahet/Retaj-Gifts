@@ -1,0 +1,300 @@
+.sayfa{
+    width: 1366px;
+    height: auto ;
+    margin: auto;
+    padding: 0px; 
+}
+.anamenu{
+    width: 1366px;
+    height:132px ;
+    background-color: white;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+}
+.AciklamaKissmi h2{
+    color: #1174AE;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-right: 30px;
+}
+.AciklamaKissmi p{
+    font-size: 25px;
+    margin-left: 30px;
+    padding-right: 30px;
+
+}
+
+ 
+.menu-button{
+    background-color: #0C527A;
+    color: #fff;
+    padding: 16px 105px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+  .right-menu{
+    display: inline-block;
+  }
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 100;
+  }
+  .dropdown-menu a{
+    color: black;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+  
+    display: block;
+  }
+  .dropdown-menu a:hover{
+    background-color: rgba(129,129,129,.15);
+    color: black;
+  }
+  .right-menu:hover .dropdown-menu{
+    display: block;
+  }
+  
+  .right-menu:hover .menu-button{
+    background-color: #0C527A;
+  }
+  
+
+  
+  
+.product-small-img img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .6;
+
+}
+.product-small-img img:hover{
+    opacity: 1;
+}
+
+.product-small-img{
+    
+    float: left;
+}
+
+.product{
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+  
+}
+
+.img-container img{
+    width: 500px;
+    height: 520px;
+    border: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    margin: auto;
+}
+.img-container{
+    float: right;
+    padding: 10px;
+    width: 520px;
+    height: 530px;
+}
+
+.Urun_Aciklamasi{
+    width: 500px;
+    height: 400px;
+    top: 500px;
+    right: -100px;
+    padding: 30px 35px 15px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0,0,0,.1) ;
+    background-color: #FAFAFA;
+}
+
+.Urun_Aciklamasi table{
+  position: absolute;
+  left: 50px;
+}
+
+.Urun_Aciklamasi h4{
+  font-size: 20px;
+
+}
+.Urun_Aciklamasi span{
+  font-size: 20px;
+
+}
+.Urun_Aciklamasi h3{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.footer{
+    margin-top: 100px;
+}
+
+
+
+#container a{
+  text-decoration: none;
+}
+.product1{
+  background-color: #fff;
+  text-align: center;
+}
+.product1 .product-image{
+  overflow: hidden;
+  position: relative;
+}
+.product1 .product-image a.image{
+  display: block;
+}
+.product1 .product-image img{
+  width: 100%;
+  height: auto;
+}
+.product1 .product-image .pic-1{
+  transition: .5s;
+}
+.product1 .product-image:hover .pic-1{
+  opacity: 0;
+}
+.product1 .product-image .pic-2{
+  width: 100%;
+  height: auto;
+  backface-visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .5s;
+}
+.product1 .product-image:hover .pic-2{
+  opacity: 1;
+}
+.product1 .discount{
+  color: #fff;
+  background: #c66;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 30px;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.product1 .cart{
+  color: #000;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 4px 14px;
+  opacity: .85;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  transition: .5s;
+}
+
+.product1 .cart:hover{
+  opacity: 1;
+  color: #fff;
+  background: #c66;
+}
+.product1:hover .cart{
+  bottom: 0px;
+}
+.product1 .links{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  opacity: 0;
+  position: absolute;
+  top: 10px;
+  right: -50px;
+  transition: .5s;
+  margin-bottom: 5px;
+}
+
+.product1:hover .links{
+  opacity: 1;
+  right: 10px;
+}
+.product1 .links li a{
+  color: #fff;
+  font-size: 12px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: block;
+  background: #000;
+  transition: .5s;
+  margin-bottom: 5px;
+}
+.product1:hover .links li a:hover{
+  color: #fff;
+  background: #c66;
+}
+.product1 .content{
+  padding: 12px;
+}
+.product1 .category{
+  font-size: 17px;
+  margin: 0 0 5px;
+  display: block;
+}
+.product1 .category a{
+  color: #999;
+  transition: .5s;
+  font-size: 14px;
+}
+.product1 .category a:hover{
+  color: #555;
+}
+.product1 .title{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+.product1 .title a{
+  color: #444;
+  transition: .5s;
+}
+.product1 .title a:hover{
+  color: #c66;
+}
+.product1 .price{
+  color: #c66;
+  font-size: 17px;
+  font-weight: 700;
+}
+.product1 .price span{
+  color: #888;
+  margin: 0 5px 0 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.container{
+  margin-top: 700px;
+}
+
+

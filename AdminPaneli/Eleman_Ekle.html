@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Sayfası</title>
+    <link rel="stylesheet" href="CSS/Eleman_Ekle_style.css">
+</head>
+<body>
+    <div class="sayfa">
+       <a href="AnaSayfa.html"><img id="logo" src="resimler/logo.png"></a> 
+        <a href="GirisSayfasi.html"><button type="button" id="cikisButonu"> Çıkış</button></a>
+       
+        <aside id="aside1">         
+            <ul>
+                <li><a href="Kategori_Ekle.html"><button  class="yanliste">Kategori işlemleri</button></a></li>
+                <li><a href="urun_Ekle.html"><button  class="yanliste">Ürün Ekle</button></a></li>
+                <li><a href="Urunleri_Sil.html"><button  class="yanliste">Ürün Sil</button></a></li>
+                <li><a href="urunleri_Duzelt.html"><button  class="yanliste">Ürün Düzelt</button></a></li>
+                <li><a href=""><button  class="yanliste">Şirketin Bilgilerini Düzelt</button></a></li>
+                <li><a href="Eleman_Ekle.html"><button  class="yanliste">Eleman İşlemleri</button></a></li>
+            </ul>
+      </aside>
+      <article>
+        <article>
+            <h2>Eleman Ekle</h2>
+            <table>
+                <form>
+                    <tr>
+                        <td><input type="text" placeholder="AD" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="SoyAd" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" placeholder="Email" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" placeholder="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Ekle"></td>
+                    </tr>
+                </form>
+            </table>
+        </article>
+        <aside id="aside2">
+            <h2>Eklenmiş Elemanlar</h2>
+            <ul>
+                <li>
+                    <label>A Kişisi</label>
+                    <button type="button" class="sil">Sil</button>
+                </li>
+                <li>
+                    <label>B Kişisi</label>
+                    <button type="button" class="sil">Sil</button>
+                </li>
+                <li>
+                    <label>C Kişisi</label>
+                    <button type="button" class="sil">Sil</button>
+                </li>
+                <li>
+                    <label>D Kişisi</label>
+                    <button type="button" class="sil">Sil</button>
+                </li>
+            </ul>
+        </aside>
+      </article>
+    </div>
+</body>
+</html>
